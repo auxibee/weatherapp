@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import InputField from '../../elements/inputField/inputfield';
+
 
 const App = () => {
     return ( 
         <div>
-            hello world
+            <InputField />
         </div>
      );
 }

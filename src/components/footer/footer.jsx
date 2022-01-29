@@ -1,13 +1,13 @@
-import React from 'react';
-import Logo from '../../elements/logo/logo'
-import styles from './footer.module.css'
+import React from "react";
+
+import styles from "./footer.module.css";
 
 const Footer = () => {
-    return ( 
-        <div className={styles.Footer}>
-            <Logo title="my weather" />
-        </div>
-     );
-}
- 
+  return (
+    <div className={styles.Footer}>
+      <h3>simple weather app</h3>
+    </div>
+  );
+};
+
 export default Footer;

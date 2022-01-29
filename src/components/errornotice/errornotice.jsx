@@ -2,14 +2,15 @@ import React from 'react';
 import Button from '../../elements/button/button'
 import styles from './errornotice.module.css'
 
-const ErrorNotice = () => {
+const ErrorNotice = ({onTryAgain}) => {
     return ( 
         <div className={styles.ErrorNoticeWrapper}>
             <h1 className={styles.NotFound404}>404</h1>
             <div className={styles.ErrorTextWrapper}>
                 <h2 className={styles.NotFoundHeading}>Oops!</h2>
                 <p className={styles.NotFoundDetails}>We can't find the city you are looking for.</p>
-                <Button 
+                <Button
+                    onClickHandler = {onTryAgain} 
                     name="tryAgain" 
                     type="button" 
                     position="onErrorNotice"

@@ -4,6 +4,7 @@
 /nn
 /node_modules
 /.pnp
+/uy
 .pnp.js
 
 # testing
